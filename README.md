@@ -4,11 +4,7 @@
 
 文章撰寫alvin.constantine@outlook.com © 2020 All rights reserved
 
-# 使用 AWS Lambda
-
-## ( 搭配 AWS API Gateway)
-
-# 快速部署 LINE Bot
+# 使用 AWS Lambda ( 搭配 AWS API Gateway) 快速部署 LINE Bot
 
 ```
 1
@@ -69,29 +65,7 @@
 ```
 ## 架構簡圖概觀
 
-```
-建立Lambda Function 上傳打包好的應用程式 修改LINE API Webhook
-```
-```
-AWS Cloud
-```
-```
-Amazon API
-Gateway
-AWS Lambda
-```
-```
-LINE 伺服器
-```
-```
-LINE 用戶 你(開發者)
-```
-```
-LINEBot
-```
-```
-步驟 1 步驟 2 步驟 3
-```
+
 
 ## 步驟 1. 登入 AWS 管理界面建立 Lambda Function
 
