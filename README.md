@@ -117,7 +117,7 @@
 
 #### 如何打包套件?
 
-- 建立一個資料夾。使用 **pip install Package -t** .。
+- 建立一個資料夾。使用 ip install **pPackage** -t .。
 #### 開發 **LINE Bot** 時碰到錯誤或問題如何除錯 (Debug/Troubleshooting)?
 - 所有的記錄包含Print() 函式的內容會包含在CloudWatch的Log Group 裡。請參考後面的螢幕擷圖。
 
@@ -132,5 +132,5 @@
 
 
 ```
-文章撰寫alvin.constantine@outlook.com © 2020 All rights reserved
+文章by **alvin.constantine@outlook.com** © 2020 All rights reserved
 ```
