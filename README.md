@@ -132,5 +132,5 @@
 
 
 ```
-文章by **alvin.constantine@outlook.com** © 2020 All rights reserved
+文章by alvin.constantine@outlook.com © 2020 All rights reserved
 ```
