@@ -19,8 +19,7 @@
 
 ### 註冊的 LINE 與 AWS 服務帳號，以及與你要開發的應用程式相關的知識及其商業邏輯
 
-#### 註冊的 AWS 雲服務帳號
-
+- 註冊的 AWS 雲服務帳號
 - 可以註冊AWS Free-Tier 方案: https://aws.amazon.com/tw/free/ ，提供一年有限度的免費服務。
 - 註冊帳號需要有可收到信的email 帳號。需要提供有效的信用卡卡號(驗證USD$1 但不會收費)。
 - 註冊帳號過程為全自動化，過程中請確認輸入正確的資料，註冊完後服務即可使用。
@@ -34,10 +33,8 @@
 
 ### 注意安全性的控管，並關注 AWS Free-Tier 的免費限額!
 
-#### 安全性
-
-#### • 雲服務廠商專注於基礎架構及服務本身的安全性，使用者需自行控管應用程式本身的安全性。
-
+- 安全性
+- 雲服務廠商專注於基礎架構及服務本身的安全性，使用者需自行控管應用程式本身的安全性。
 - 你使用的email 帳號與密碼及註冊帳號的密碼等安全性保護也很重要。
 - 如果疏於管理安全性，可能會導致服務被惡意使用造成鉅額的使用費用!
 - **查看** AWS Free-Tier **的細節**
@@ -48,8 +45,7 @@
 
 ## 架構簡圖概觀
 
--
-    ![架構圖概觀](https://github.com/spectreConstantine/LINE-Bot-AWS-Lambda-Python/blob/main/2020-10-04_114621.png)
+-   ![架構圖概觀](https://github.com/spectreConstantine/LINE-Bot-AWS-Lambda-Python/blob/main/2020-10-04_114621.png)
 
 ## 步驟 1. 登入 AWS 管理界面建立 Lambda Function
 
@@ -102,7 +98,7 @@
 
 - 開啟 LINE 的開發頁面 https://developers.line.biz/console/ 並登入你的 LINE 帳號建立 Provider
 - 建立Provider為建立Line Bot 的第一個步驟。建立完後選擇該Provider後點選建立Channel。
-**在建立** Channel **裡選擇建立** Message API **，並啟用** Usewebhook
+- **在建立** Channel **裡選擇建立** Message API **，並啟用** Usewebhook
 - 建立Message API 的後，點選看到Basic Settings 設定。在頁面中找到Channel secret 的值。
 - 在下一個Messaging API 頁籤中找到Channel access token，點Issue，取得token 的值。
 - 回到Basic Settings 按一下LINE Official Account Manager 的連結，選取左邊Message API。
@@ -114,7 +110,7 @@
 
     ![步驟3](https://github.com/spectreConstantine/LINE-Bot-AWS-Lambda-Python/blob/main/2020-10-04_114643.png) 
     
-**完成啦** ~ **這樣你的** LINE Bot **就可以使用囉**! **是不是很容易呢**?
+- **完成啦** ~ **這樣你的** LINE Bot **就可以使用囉**! **是不是很容易呢**?
 - 在Messaging API 頁籤中找Bot information ，打開手機的LINE 掃描QR Code 加入好友即可對話。
 
 ## 其他參考資訊
