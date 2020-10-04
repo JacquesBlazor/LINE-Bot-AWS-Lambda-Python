@@ -123,7 +123,7 @@
 
     ![其他](https://github.com/spectreConstantine/LINE-Bot-AWS-Lambda-Python/blob/main/2020-10-04_114648.png) 
     
-#### 建立您的第一個** IAM **管理員用戶和群組**
+#### 建立您的第一個 IAM **管理員用戶和群組**
 - https://docs.aws.amazon.com/zh_tw/IAM/latest/UserGuide/getting-started_create-admin-group.html
 #### AWS Lambda **常見問答集**
 - https://aws.amazon.com/tw/lambda/faqs/
