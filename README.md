@@ -86,7 +86,7 @@
     ![步驟2](https://github.com/spectreConstantine/LINE-Bot-AWS-Lambda-Python/blob/main/2020-10-04_114637.png)
     
 - 環境變數預設是自動使用AWS KMS 加密的。在免費方案中採用KMS有提供有限的免費用量。
-- 可以直接線上在中間畫面中修改你的** LINE Bot **程式。修改後按一下** Deploy **即可部署最後修訂的內容。**
+- 可以直接線上在中間畫面中修改你的 **LINE Bot**程式。修改後按一下 **Deploy** 即可部署最後修訂的內容。**
 
     ![其他](https://github.com/spectreConstantine/LINE-Bot-AWS-Lambda-Python/blob/main/2020-10-04_114645.png) 
     
