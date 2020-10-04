@@ -55,12 +55,12 @@
 - 使用註冊的email 帳號和密碼登入，或使用另外建立的Administrative Access 的IAM 帳號登入
 - 登入後可以在右上角先選擇區域。可以使用東京(ap-northeast-1) 或香港(ap-east-1) 離台灣較近。
 - 需注意香港(ap-east-1) 區域需在登入後額外啟用該區域。請參考AWS 網站的說明。
-- 點取左上角的** Services **，點選運算類別的** Lambda **服務開啟** Lambda **服務界面。按一下建立函式**
+- 點取左上角的 **Services**，點選運算類別的** Lambda **服務開啟** Lambda **服務界面。按一下建立函式**
 - 選最左邊的從頭開始撰寫，為函式命名。選Python 3.7 為執行時間，其他預設值不變，選 **建立函式** 。
 
     ![步驟1](https://github.com/spectreConstantine/LINE-Bot-AWS-Lambda-Python/blob/main/2020-10-04_114626.png)
     
-- 在新增觸發條件選按一下，選** API Gateway **，** Create API **，** HTTP API **，安全性為開啟。按一下新增。**
+- 在新增觸發條件選按一下，選 **API Gateway**，** Create API **，** HTTP API **，安全性為開啟。按一下新增。**
 
     ![步驟1](https://github.com/spectreConstantine/LINE-Bot-AWS-Lambda-Python/blob/main/2020-10-04_114629.png)
     
@@ -80,13 +80,13 @@
     
 - 上傳後的程式及套件會覆蓋原有的預設執行環境。如果已先在剛才的環境撰寫程式需先匯出備份。
 - 如果上傳超過3MB 的.zip 會有訊息提醒你Lambda 編輯畫面無法使用。需使用AWS CLI 等工具。
-- 將** LINE Bot **的** Channel Access Token **及** Channel Secret **新增到程式碼下方的環境變數** ( **參考步驟** 3)
+- 將 **LINE Bot** 的 **Channel Access Token** 及 **Channel Secret** 新增到程式碼下方的環境變數** ( **參考步驟** 3)
 - 由於安全性的考量，這裡採用環境變數的方式儲存這兩個設定，再從程式碼裡用os.getenv去存取。
 
     ![步驟2](https://github.com/spectreConstantine/LINE-Bot-AWS-Lambda-Python/blob/main/2020-10-04_114637.png)
     
-- 環境變數預設是自動使用AWS KMS 加密的。在免費方案中採用KMS有提供有限的免費用量。
-- 可以直接線上在中間畫面中修改你的 **LINE Bot**程式。修改後按一下 **Deploy** 即可部署最後修訂的內容。**
+- 環境變數預設是自動使用 AWS KMS 加密的。在免費方案中採用 KMS 有提供有限的免費用量。
+- 可以直接線上在中間畫面中修改你的 **LINE Bot** 程式。修改後按一下 **Deploy** 即可部署最後修訂的內容。
 
     ![其他](https://github.com/spectreConstantine/LINE-Bot-AWS-Lambda-Python/blob/main/2020-10-04_114645.png) 
     
@@ -118,7 +118,7 @@
 #### 如何打包套件?
 
 - 建立一個資料夾。使用pip install Package-t .。
-#### 開發** LINE Bot **時碰到錯誤或問題如何除錯** (Debug/Troubleshooting)?
+#### 開發 **LINE Bot** 時碰到錯誤或問題如何除錯 (Debug/Troubleshooting)?
 - 所有的記錄包含Print() 函式的內容會包含在CloudWatch的Log Group 裡。請參考後面的螢幕擷圖。
 
     ![其他](https://github.com/spectreConstantine/LINE-Bot-AWS-Lambda-Python/blob/main/2020-10-04_114648.png) 
