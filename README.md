@@ -1,6 +1,6 @@
 # 使用 AWS Lambda 快速部署 LINE Bot
 ( 搭配 AWS API Gateway [並隨附範例 LineBot_AWS_Lambda_QuickEx.zip](https://github.com/spectreConstantine/LINE-Bot-AWS-Lambda-Python/raw/main/LineBot_AWS_Lambda_QuickEx.zip "範例LineBot_AWS_Lambda_QuickEx.zip") )
-[本文件 pdf 版](https://github.com/spectreConstantine/LINE-Bot-AWS-Lambda-Python/raw/main/%E4%BD%BF%E7%94%A8%20AWS%20Lambda%20%E9%83%A8%E7%BD%B2%20LINE%20Bot.pdf)
+[本文 pdf 版](https://github.com/spectreConstantine/LINE-Bot-AWS-Lambda-Python/raw/main/%E4%BD%BF%E7%94%A8%20AWS%20Lambda%20%E9%83%A8%E7%BD%B2%20LINE%20Bot.pdf) 
 
 ## 什麼是 AWS Lambda? 用它來部署 Line Bot 有什麼不同和好處?
 
