@@ -112,8 +112,7 @@
     ![步驟3](https://github.com/spectreConstantine/LINE-Bot-AWS-Lambda-Python/blob/main/2020-10-04_114643.png) 
     
 - **完成啦** ~ **這樣你的** LINE Bot **就可以使用囉**! **是不是很容易呢**?
-    - 在 Messaging API 頁籤中找 Bot information ，打開手機的LINE 掃描 QR Code 加入好友即可對話。
-    ![桃園市圖書館](https://github.com/spectreConstantine/LINE-Bot-AWS-Lambda-Python/blob/main/2020-10-04_130228.png) 
+    - 在 Messaging API 頁籤中找 Bot information ，打開手機的LINE 掃描 QR Code 加入好友即可對話。可以參考文末擷圖。
 
 ## 其他參考資訊
 
