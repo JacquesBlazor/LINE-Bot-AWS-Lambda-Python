@@ -134,7 +134,7 @@
 
 #### 歡迎試用一下我用相同的方法建立的 桃園市圖書館 Line Bot: @082gynfz
 
-- 除了使用上述的 AWS Lambda/AWS API Gateway 外, 也搭配了 AWS S3/DynamoDb/SQS 及 EC2/MongoDB 等服務。
+- 除了使用上述的 AWS Lambda/AWS API Gateway, 也搭配了 AWS S3/DynamoDb/SQS 及 EC2/MongoDB 等服務。
     ![桃園市圖書館](https://github.com/spectreConstantine/LINE-Bot-AWS-Lambda-Python/blob/main/2020-10-04_130228.png) 
 
 
