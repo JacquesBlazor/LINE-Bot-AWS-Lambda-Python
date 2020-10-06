@@ -137,7 +137,10 @@
 - https://docs.aws.amazon.com/zh_tw/lambda/latest/dg/python-package.html
 #### AWS Lambda Runtimes
 - https://docs.aws.amazon.com/zh_tw/lambda/latest/dg/lambda-runtimes.html
-
+#### LINE Flex Message Simulator
+- https://developers.line.biz/flex-simulator/
+#### JSON Formatter & Validator
+- https://jsonformatter.curiousconcept.com/
 #### 歡迎試用一下我用相同的方法建立的 桃園市圖書館 Line Bot: @082gynfz
 
 - 除了使用上述的 AWS Lambda/AWS API Gateway, 也搭配了 AWS S3/DynamoDb/SQS 及 EC2/MongoDB 等服務。
