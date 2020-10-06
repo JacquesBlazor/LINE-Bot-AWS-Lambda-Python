@@ -131,8 +131,6 @@
 - https://aws.amazon.com/tw/lambda/faqs/
 #### LINEBot SDK for Python
 - https://github.com/line/line-bot-sdk-python
-#### Lambda Deployment Packages with Docker
-- https://blog.quiltdata.com/an-easier-way-to-build-lambda-deployment-packages-with-docker-instead-of-ec2-9050cd486ba8
 #### AWS Lambda Deployment Package in Python
 - https://docs.aws.amazon.com/zh_tw/lambda/latest/dg/python-package.html
 #### AWS Lambda Runtimes
@@ -141,6 +139,8 @@
 - https://developers.line.biz/flex-simulator/
 #### JSON Formatter & Validator
 - https://jsonformatter.curiousconcept.com/
+#### Lambda Deployment Packages with Docker
+- https://blog.quiltdata.com/an-easier-way-to-build-lambda-deployment-packages-with-docker-instead-of-ec2-9050cd486ba8
 #### 歡迎試用一下我用相同的方法建立的 桃園市圖書館 Line Bot: @082gynfz
 
 - 除了使用上述的 AWS Lambda/AWS API Gateway, 也搭配了 AWS S3/DynamoDb/SQS 及 EC2/MongoDB 等服務。
