@@ -1,4 +1,4 @@
-from linebot import (LineBotApi, WebhookHandler)
+from linebot import (LineBotApi, WebhookHandler) # --- The MIT License (MIT) Copyright (c) alvinconstantine(alvin.constantine@outlook.com), Tue Oct 6 14:14pm 2020 ---
 from linebot.exceptions import (LineBotApiError, InvalidSignatureError)
 from linebot.models import (MessageEvent, TextMessage, TextSendMessage, SourceUser, SourceGroup, SourceRoom, TemplateSendMessage, ConfirmTemplate, MessageAction, ButtonsTemplate, 
     ImageCarouselTemplate, ImageCarouselColumn, URIAction, PostbackAction, DatetimePickerAction, CameraAction, CameraRollAction, LocationAction, CarouselTemplate, CarouselColumn, 
