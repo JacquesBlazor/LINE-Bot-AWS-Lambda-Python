@@ -132,6 +132,8 @@
 - https://github.com/line/line-bot-sdk-python
 #### Lambda Deployment Packages with Docker
 - https://blog.quiltdata.com/an-easier-way-to-build-lambda-deployment-packages-with-docker-instead-of-ec2-9050cd486ba8
+#### AWS Lambda deployment package in Python
+- https://docs.aws.amazon.com/zh_tw/lambda/latest/dg/python-package.html
 
 #### 歡迎試用一下我用相同的方法建立的 桃園市圖書館 Line Bot: @082gynfz
 
